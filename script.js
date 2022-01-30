@@ -21,7 +21,7 @@ hole.addEventlistener('animationiteration', () => {
    var characterTop = 
      parsentInt(window.getComputedStyle(character).getPropertyValue("top");
   var cTop = -(500-characterTop);
-  if((characterTop>480)||(()&&())){
+  if((characterTop>480)||((blockLeft<20)&&(blockLeft>-50)&&((cTop<holeTop)||(cTop>holeTop+130)))){
     alert("Game Over. Score:"+counter);
     character.style.top = 100px;
     counter=0;
