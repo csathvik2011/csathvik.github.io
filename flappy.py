@@ -1,4 +1,5 @@
 import flappybird
+def scoreboard():
 score = 0
 print("Count until you die")
 dead = exit()
