@@ -1,3 +1,4 @@
+language python
 import flappybird
 #Scoreboard
 def scoreboard():
